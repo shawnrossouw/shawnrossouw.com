@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 70em;
+  margin: 0 auto;
+  padding: 2em 2em 0 2em;
+  background: var(--charcoal);
+  @media (min-width: 40em) {
+    flex-direction: row;
+    padding: 3em 0 0 4em;
+  }
+  @media (min-width: 71em) {
+    padding: 3em 0 0 0;
+  }
+  > a {
+    padding: 0 0 3em 0;
+    position: relative;
+    @media (min-width: 40em) {
+      padding: 0;
+      img {
+        width: 70px;
+      }
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 8em;
+      height: 8em;
+      border: 1px solid var(--azurite);
+      border-radius: 8em;
+      @media (min-width: 40em) {
+        width: 7em;
+        height: 7em;
+        border-radius: 7em;
+      }
+    }
+  }
+}

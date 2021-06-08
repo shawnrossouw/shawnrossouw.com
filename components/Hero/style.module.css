@@ -1,0 +1,139 @@
+.hero {
+  width: 100%;
+  max-width: 70em;
+  margin: 0 auto;
+  padding: 4em 2em 0 2em;
+  position: relative;
+  @media (min-width: 40em) {
+    padding: 4em 4em 0 4em;
+  }
+  @media (min-width: 64em) {
+    display: flex;
+  }
+  @media (min-width: 71em) {
+    padding: 4em 0 0 0;
+  }
+  > div {
+    @media (min-width: 64em) {
+      width: 55%;
+      position: relative;
+      z-index: 1;
+    }
+    h1 {
+      font-size: 2.7rem;
+      font-weight: 700;
+      padding: 0 0 2rem 0;
+      color: white;
+      @media (min-width: 64em) {
+        font-size: 4rem;
+      }
+    }
+    p {
+      font-size: 1em;
+      line-height: 22px;
+      color: white;
+      padding: 0 0 2rem 0;
+      @media (min-width: 64em) {
+        width: 70%;
+        color: var(--azurite);
+      }
+    }
+    button {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid var(--azurite);
+      background: none;
+      color: white;
+      border-radius: 4rem;
+      padding: 1em 2em;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin: 0 0 2rem 0;
+      cursor: pointer;
+      position: relative;
+    }
+    aside {
+      a {
+        display: inline-flex;
+        svg {
+          color: var(--azurite);
+          font-size: 1.4em;
+          margin: 0 1.4rem 0 0;
+          transition: color .25s ease;
+          
+        }
+        &:hover {
+          svg {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  figure {
+    position: absolute;
+    width: 60%;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+    opacity: .1;
+    transform: translateX(-50%);
+    @media (min-width:40em) {
+      width: 50%;
+    }
+    @media (min-width: 64em) {
+      position: unset;
+      top: unset;
+      left: unset;
+      z-index: 0;
+      opacity: 1;
+      transform: translateX(0) translateY(-4em);
+      width: 45%;
+    }
+    svg {
+      width: 100%;  
+      overflow: visible;
+     path {
+      animation: scale 15s ease-in-out alternate infinite;
+      transform-origin: bottom right;
+      &:nth-child(25) {
+        animation: flicker-alt 3s 1s alternate infinite;
+      }
+      &:nth-child(28) {
+        animation: flicker 1s 1s alternate infinite;
+      }
+      &:nth-child(26) {
+        animation: flicker 1s alternate infinite;
+      }
+     }
+    }
+  }
+}
+@keyframes scale {
+  0% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(1.2);
+  }
+}
+@keyframes flicker {
+  0% {
+    fill:  #d464cb;
+  }
+  50% {
+    fill: #cfa13e;
+  }
+  100% {
+    fill: #6dbb56;
+  }
+}
+@keyframes flicker-alt {
+  from {
+    fill: #197de5;
+  }
+  to {
+    fill: #ffffff;
+  }
+}

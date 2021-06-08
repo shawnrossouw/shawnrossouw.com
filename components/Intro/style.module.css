@@ -1,0 +1,30 @@
+.intro {
+  padding: 6em 2em 4em 0;
+  max-width: 70em;
+  margin: 0 auto;
+  h2 {
+    color: var(--azurite);
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 0 4rem 0;
+  }
+  p {
+    position: relative;
+    padding: 0 0 1rem 3rem;
+    line-height: 24px;
+    @media (min-width: 48em) {
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1px;
+        height: 100%;
+        background: var(--azurite);
+      }
+    }
+    &:last-child {
+      padding: 0 0 0 3rem;
+    }
+  }
+}

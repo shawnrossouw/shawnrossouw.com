@@ -1,0 +1,25 @@
+.navigation {
+  @media (min-width: 40em) {
+    padding: 0 0 0 4em;
+  }
+  ul {
+    display: flex;
+    li {
+      list-style: none;
+      padding: 0 2em 0 0;
+      &:last-child {
+        padding: 0;
+      }
+      @media (min-width: 40em) {
+        padding: 0 3em 0 0;
+      }
+      @media (min-width: 48em) {
+        padding: 0 4em 0 0;
+      }
+      a {
+        color: var(--azurite);
+        text-decoration: none;
+      }
+    }
+  }
+}

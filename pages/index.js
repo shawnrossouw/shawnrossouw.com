@@ -4,6 +4,7 @@ import SEO from '../components/SEO'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Intro from '../components/Intro'
+import Work from '../components/Work'
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <main>
         <Intro />
+        <Work />
       </main>
 
       <footer>

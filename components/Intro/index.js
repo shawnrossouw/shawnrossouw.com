@@ -2,7 +2,7 @@ import React from 'react'
 import _ from './style.module.css'
 
 const Intro = () => (
-  <section className={_.intro}>
+  <section className={_.intro} id='intro'>
     <h2>My frontend journey so far</h2>
     <p>I have always had an interest in websites, how they look and function. I have been freelancing since 2016 building basic Wordpress websites on side. It was until a couple of years ago that my frontend web developer journey sky rocketed when a friend started mentoring me and guided me in developing solid skills in html, css and javascript.
     </p>

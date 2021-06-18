@@ -10,9 +10,9 @@ const Hero = () => (
     <div>
       <h1>Let’s Code</h1>
       <p>I’m Shawn Rossouw, a front end web developer who is
-      passionate about web design and the code which brings
-      them to life. </p>
-      <button>View Projects</button>
+        passionate about web design and the code which brings
+        them to life. </p>
+      <button><Link href="/#portfolio"><a>View Projects</a></Link></button>
       <aside>
         <Link href='https://www.linkedin.com/in/shawnrossouw/'><a><Icon name='linkedin' /></a></Link>
         <Link href='https://twitter.com/ShawnRossouw'><a><Icon name='twitter' /></a></Link>

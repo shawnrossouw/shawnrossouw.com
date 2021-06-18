@@ -10,7 +10,7 @@
 
 html {
   font-size: 100%;
-	scroll-behavior: auto;
+	scroll-behavior: smooth;
 	-webkit-scroll-behavior: smooth;
 }
 

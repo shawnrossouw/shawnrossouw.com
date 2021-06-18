@@ -44,7 +44,6 @@
       align-items: center;
       border: 1px solid var(--azurite);
       background: none;
-      color: white;
       border-radius: 4rem;
       padding: 1em 2em;
       font-weight: 700;
@@ -52,6 +51,9 @@
       margin: 0 0 2rem 0;
       cursor: pointer;
       position: relative;
+      a {
+        color: white;
+      }
     }
     aside {
       a {

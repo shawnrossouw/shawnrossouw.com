@@ -1,28 +1,32 @@
 import React from 'react'
+import Link from 'next/link'
 import _ from './style.module.css'
 
 const menu = [
   {
     name: 'Work',
-    link: '/'
+    link: '/#portfolio'
   },
   {
     name: 'About',
-    link: '/'
+    link: '/#intro'
   },
   {
     name: 'Contact',
-    link: '/'
+    link: '/#contact'
   }
 ]
 
-const Navigation = () => (
-  <nav className={_.navigation}>
-    <ul>
-      {menu.map((item, k) => (
-        <li key={k}><a href={item.link}>{item.name}</a></li>
-      ))}
-    </ul>
-  </nav>
-)
+const Navigation = () => {
+
+  return (
+    <nav className={_.navigation}>
+      <ul>
+        {menu.map((item, k) => (
+          <li key={k}><Link href={item.link}><a>{item.name}</a></Link></li>
+        ))}
+      </ul>
+    </nav>
+  )
+}
 export default Navigation

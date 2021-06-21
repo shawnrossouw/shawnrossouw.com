@@ -29,7 +29,7 @@ body {
 	font-weight: 500;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
-	background: var(--charcoal);
+	background: #000;
 }
 
 img {
@@ -44,4 +44,9 @@ ul {
 
 a {
 	text-decoration: none;
+}
+
+main {
+	position: relative;
+	z-index: 2;
 }

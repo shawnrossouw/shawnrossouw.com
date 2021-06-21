@@ -51,8 +51,16 @@
       margin: 0 0 2rem 0;
       cursor: pointer;
       position: relative;
+      transition: box-shadow .25s ease;
       a {
         color: white;
+        transition: color .25s ease;
+      }
+      &:hover {
+        box-shadow: 0 0 10px 3px rgba(51,166,181,.8);
+        a {
+          color: var(--azurite);
+        }
       }
     }
     aside {

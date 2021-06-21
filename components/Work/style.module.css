@@ -1,5 +1,7 @@
 .work {
   background: linear-gradient(to bottom, #33A6B5, #307ECC, #307ECC, #307ECC, #141414, #141414, #000000);
+  position: relative;
+  z-index: 1;
   article {
     max-width: 70em;
     margin: 0 auto;

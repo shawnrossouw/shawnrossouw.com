@@ -1,5 +1,5 @@
 .work {
-  background: linear-gradient(to bottom, #33A6B5, #307ECC, #307ECC, #307ECC, #141414, #141414, #000000);
+  background: linear-gradient(to bottom, #33A6B5, #307ECC, #307ECC, #307ECC, #141414, #141414, var(--charcoal));
   position: relative;
   z-index: 1;
   article {
@@ -55,7 +55,7 @@
         }
         @media (min-width: 70.5em) {
           width: calc((100% / 3) - 2em);
-          margin: 0 0 3rem 0;
+          margin: 0 auto 3rem auto;
         }
         @media (min-width: 71.5em) {
           width: calc((100% / 3) - 3em);

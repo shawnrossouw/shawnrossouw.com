@@ -58,9 +58,7 @@ const Waves = () => {
         raycaster.setFromCamera(mouse, camera);
         raycaster.ray.intersectPlane(mousePlane, mousePosition);
       });
-
       initScene();
-
     }
 
     function initScene() {

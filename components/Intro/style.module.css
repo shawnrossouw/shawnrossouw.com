@@ -2,6 +2,7 @@
   padding: 6em 2em 6em 0;
   max-width: 70em;
   margin: 0 auto;
+  position: relative;
   h2 {
     color: var(--azurite);
     text-align: center;
@@ -26,5 +27,49 @@
     &:last-child {
       padding: 0 0 0 3rem;
     }
+  }
+  .more {
+    transition: all 2s ease;
+    animation: open 1s linear;
+  }
+  span {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    padding: 1em 0 0 2em;
+  }
+  a {
+    position: absolute;
+    bottom: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all .25s ease;
+    svg {
+      font-size: 3em;
+      transition: all .25s ease;
+      color: white;
+    }
+    &:hover {
+      bottom: 1.8em;
+      svg {
+        color: var(--azurite);
+      }
+    }
+  }
+  .open {
+    svg {
+      transform: rotate(180deg);
+      color: var(--azurite);
+    }
+  }
+}
+
+@keyframes open {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

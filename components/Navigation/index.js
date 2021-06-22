@@ -17,16 +17,13 @@ const menu = [
   }
 ]
 
-const Navigation = () => {
-
-  return (
-    <nav className={_.navigation}>
-      <ul>
-        {menu.map((item, k) => (
-          <li key={k}><Link href={item.link}><a>{item.name}</a></Link></li>
-        ))}
-      </ul>
-    </nav>
-  )
-}
+const Navigation = () => (
+  <nav className={_.navigation}>
+    <ul>
+      {menu.map((item, k) => (
+        <li key={k}><Link href={item.link}><a>{item.name}</a></Link></li>
+      ))}
+    </ul>
+  </nav>
+)
 export default Navigation

@@ -2,6 +2,7 @@ import React from 'react'
 import _ from './style.module.css'
 import Link from 'next/link'
 import Icon from '../Icon'
+import Waves from '../Waves'
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
         </div>
         <button><Link href="mailto:shawnrossouw@gmail.com"><a>LET'S COLABORATE</a></Link></button>
       </article>
-
+      <Waves />
     </footer>
   )
 }

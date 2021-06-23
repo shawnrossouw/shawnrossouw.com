@@ -20,9 +20,9 @@ const Work = () => (
                 <div className={_.content}>
                   <h3>{item.title}</h3>
                   <p>{item.text}</p>
-                  <Link href={item.url}>
+                  {item.url && <Link href={item.url}>
                     <a target='_blank' rel="noopener noreferrer nofollow">{item.link}</a>
-                  </Link>
+                  </Link>}
                 </div>
               </div>
             ))}

@@ -7,7 +7,7 @@ export default [
         title: 'Orderin Website',
         text: 'The project was bootstrapped with next.js. The site features dynamic content hosted on Storyblok CMS, CSS animations with the intersection observer and a complex navigation system. This project is still under development.',
         link: 'View Project',
-        url: 'https://www2.orderin.co.za/'
+        url: ''
       },
       {
         image: './orderin-elements.jpg',
@@ -15,7 +15,7 @@ export default [
         title: 'Orderin Design System',
         text: 'A next.js project which comprises of custom UI components built from the ground up.  The project has a documentation site that showcases the components. This project is still under development.',
         link: 'View Project',
-        url: 'https://orderin.github.io/design-system'
+        url: ''
       },
       {
         image: './codilation.jpg',
@@ -23,7 +23,7 @@ export default [
         title: 'Codilation Website',
         text: 'Project bootstrapped with next.js. This is a personal project for a company which my colleagues and I are growing organically. This project is still under development.',
         link: 'View Project',
-        url: 'https://www.codilation.com/'
+        url: ''
       },
     ],
     old: [
@@ -90,6 +90,14 @@ export default [
         text: 'Wordpress project bootstrapped with a basic Wordpress installation dockerized starter theme and ACF to customise the backend. PostCSS for styling and intersection observer for animations. Co-designed this project on Abobe XD.',
         link: 'View Project',
         url: 'http://preview.liegeafrica.com/'
+      },
+      {
+        image: './avula.jpg',
+        alt: 'avula safaris',
+        title: 'Avula Safaris Website',
+        text: 'Wordpress project bootstrapped with a basic Wordpress installation dockerized starter theme and ACF to customise the backend. PostCSS for styling.',
+        link: 'View Project',
+        url: 'https://avula2019.dev.magneticcreative.co.za/'
       },
     ]
   }

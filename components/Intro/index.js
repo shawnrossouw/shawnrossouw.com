@@ -14,8 +14,8 @@ const Intro = () => {
 
   return (
     <section className={_.intro} id='intro'>
-      <h2>My front-end journey so far</h2>
-      <p>I have always had an interest in websites, how they look and function. I have been freelancing since 2016 building basic WordPress websites on the side. It was until a couple of years ago that my front-end web developer journey skyrocketed when a friend, who is a senior developer started mentoring me and guided me in developing solid skills in HTML, CSS, and Javascript.
+      <h2>My dev journey so far</h2>
+      <p>I have always had an interest in websites, how they look and function. I have been freelancing since 2016 building basic WordPress websites on the side. A couple of years ago my front-end web developer journey skyrocketed when a friend, who is a senior developer, started mentoring me and guided me in developing solid skills in HTML, CSS, and Javascript.
       </p>
       {readmore && more}
       <span>{readmore ? 'Read Less' : 'Read More...'}</span>

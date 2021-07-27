@@ -5,9 +5,9 @@ export default [
         image: './orderin-website.jpg',
         alt: 'orderin website',
         title: 'Orderin Website',
-        text: 'The project was bootstrapped with next.js. The site features dynamic content hosted on Storyblok CMS, CSS animations with the intersection observer and a complex navigation system. This project is still under development.',
+        text: 'The project was bootstrapped with next.js. The site features dynamic content hosted on Storyblok CMS, CSS animations with the intersection observer and a complex navigation system.',
         link: 'View Project',
-        url: ''
+        url: 'https://www.orderin.co.za/'
       },
       {
         image: './orderin-elements.jpg',

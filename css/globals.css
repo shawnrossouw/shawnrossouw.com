@@ -30,6 +30,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
 	background: var(--charcoal);
+	overflow-x: hidden;
 }
 
 img {

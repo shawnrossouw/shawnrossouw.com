@@ -23,7 +23,7 @@ export default [
         title: 'Codilation Website',
         text: 'Project bootstrapped with next.js. This is a personal project for a company which my colleagues and I are growing organically. This project is still under development.',
         link: 'View Project',
-        url: ''
+        url: 'https://www.codilation.com/'
       },
     ],
     old: [

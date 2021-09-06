@@ -7,7 +7,7 @@ import Waves from '../Waves'
 const Footer = () => {
   return (
     <footer className={_.footer} id='contact'>
-      <section>
+      <div>
         <Link href="#">
           <a className={_.logo}><img src="../logo.svg" alt="logo" /></a>
         </Link>
@@ -15,7 +15,7 @@ const Footer = () => {
           <li><Link href="/#portfolio"><a>Work</a></Link></li>
           <li><Link href="/#intro"><a>About</a></Link></li>
         </ul>
-      </section>
+      </div>
       <article>
         <h2>Get In Touch</h2>
         <div>

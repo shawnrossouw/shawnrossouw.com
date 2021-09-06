@@ -17,7 +17,7 @@
     height: 1px;  
     background: var(--azurite);
   }
-  section {
+  > div {
     display: flex;
     flex-direction: column;
     justify-content: center;

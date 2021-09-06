@@ -4,7 +4,7 @@ import projects from './projects'
 import Link from 'next/link'
 
 const Work = () => (
-  <section className={_.work} id='portfolio'>
+  <div className={_.work} id='portfolio'>
     <article>
       <h2>Portfolio</h2>
       <p>A list of projects I have worked on and contributed to. </p>
@@ -47,6 +47,6 @@ const Work = () => (
         </section>
       ))}
     </article>
-  </section>
+  </div>
 )
 export default Work

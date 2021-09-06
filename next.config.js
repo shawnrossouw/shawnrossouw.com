@@ -6,5 +6,9 @@ module.exports = {
     });
 
     return config;
+  },
+  i18n: {
+    locales: ['en', 'en-US'],
+    defaultLocale: 'en-US',
   }
 };

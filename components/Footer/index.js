@@ -24,7 +24,7 @@ const Footer = () => {
           <Link href='https://github.com/shawnrossouw'><a><Icon name='github' /></a></Link>
           <Link href='https://codepen.io/shawnrossouw'><a><Icon name='codepen' /></a></Link>
         </div>
-        <button><Link href="mailto:shawnrossouw@gmail.com"><a>LET'S COLABORATE</a></Link></button>
+        <span><Link href="mailto:shawnrossouw@gmail.com"><a>LET'S COLABORATE</a></Link></span>
       </article>
       <Waves />
     </footer>

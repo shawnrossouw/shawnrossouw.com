@@ -38,7 +38,7 @@
         color: var(--azurite);
       }
     }
-    button {
+    span {
       display: inline-flex;
       justify-content: center;
       align-items: center;

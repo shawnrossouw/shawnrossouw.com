@@ -1,10 +1,10 @@
-import React from 'react'
-import _ from './style.module.css'
-import projects from './projects'
-import Link from 'next/link'
+import React from "react";
+import _ from "./style.module.css";
+import projects from "./projects";
+import Link from "next/link";
 
 const Work = () => (
-  <div className={_.work} id='portfolio'>
+  <div className={_.work} id="portfolio">
     <article>
       <h2>Portfolio</h2>
       <p>A list of projects I have worked on and contributed to. </p>
@@ -20,9 +20,13 @@ const Work = () => (
                 <div className={_.content}>
                   <h3>{item.title}</h3>
                   <p>{item.text}</p>
-                  {item.url && <Link href={item.url}>
-                    <a target='_blank' rel="noopener noreferrer nofollow">{item.link}</a>
-                  </Link>}
+                  {item.url && (
+                    <Link href={item.url}>
+                      <a target="_blank" rel="noopener noreferrer nofollow">
+                        {item.link}
+                      </a>
+                    </Link>
+                  )}
                 </div>
               </div>
             ))}
@@ -37,9 +41,13 @@ const Work = () => (
                 <div className={_.content}>
                   <h3>{item.title}</h3>
                   <p>{item.text}</p>
-                  <Link href={item.url}>
-                    <a target='_blank' rel="noopener noreferrer nofollow">{item.link}</a>
-                  </Link>
+                  {item.url && (
+                    <Link href={item.url}>
+                      <a target="_blank" rel="noopener noreferrer nofollow">
+                        {item.link}
+                      </a>
+                    </Link>
+                  )}
                 </div>
               </div>
             ))}
@@ -48,5 +56,5 @@ const Work = () => (
       ))}
     </article>
   </div>
-)
-export default Work
+);
+export default Work;
